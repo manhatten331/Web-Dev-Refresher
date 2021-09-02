@@ -12,18 +12,15 @@
 
 <div class="container">
     <header> <!-- header -->
-
         <div class="logo"><!-- logo -->
             <a href="index.html">
                 <img src="images/unnamed-company.png" alt="Example Logo" height="75">
             </a>
         </div><!-- logo -->
-
         <form class="search"><!-- search -->
             <input type="search" name="s" placeholder="Search Site">
             <input type="submit" value=">">
         </form><!-- search -->
-
         <nav class="main-menu"> <!-- nav-->
             <ul>
                 <li><a href="#">Home</a></li>
@@ -39,17 +36,15 @@
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav> <!-- nav -->
-
     </header> <!--- header -->
-
-    <section> <!-- Banner -->
-        <img src="images/flower.jpg" alt="Banner 1">
-        <img src="images/winter-photo.jpeg" alt="Banner 2">
+    <section class="banner cycle-slideshow"> <!-- Banner -->
+        <img src="images/flower.jpg" alt="Banner 1" height="667">
+        <img src="images/winter-photo.jpeg" alt="Banner 2" height="667">
     </section> <!-- Banner -->
     
-    <section> <!-- Content Holder -->
+    <section class="content-holder"> <!-- Content Holder -->
     
-        <article> <!-- Content -->
+        <article class="content"> <!-- Content -->
             <main>
                 <h1>Welcome back! I know you will get the job you always wanted!</h1>
                 <p>
@@ -75,9 +70,9 @@
             </main>
         </article> <!-- Content -->
     
-        <aside> <!-- Sidebar -->
+        <aside class="side-bar"> <!-- Sidebar -->
             <div>
-                <h3>Widget</h3>
+                <h3 >Widget</h3>
                 <ul>
                     <li><a href="#">2018</a></li>
                     <li><a href="#">2019</a></li>
@@ -88,7 +83,7 @@
     
     </section> <!-- Content Holder -->
     
-    <footer> <!-- Footer -->
+    <footer class="footer"> <!-- Footer -->
         <div>
             <h3>Footer Menu</h3>
             <ul>
@@ -133,5 +128,11 @@
     </div>
 </div>
 
+<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/jquery.cycle2.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.carousel.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.swipe.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle2/2.1.6/plugin/jquery.cycle2.shuffle.min.js"></script>
 </body>
 </html>
