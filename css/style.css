@@ -66,7 +66,6 @@ body{
 /* Banner */
 .banner{
     width: 1000px;
-    height: 625px;
     overflow: hidden;
 }
 .banner img{
@@ -133,15 +132,16 @@ body{
     clear: both;
 }
 .main-footer{
+    display: block;
     background-color: #9DAAF2;
     color: white;
     max-width: 950px;
-    height: auto;
     padding: 25px;
+    float: left;
 }
 .footer-box{
     width: 237.5px;
-    height: auto;
+    
     float: left;
     font-family: sans-serif;
 }
@@ -169,7 +169,46 @@ address p{
     padding: 25px;
     text-align: center;
     background-color: #F4DB7D;
+    clear: both;
 }
 .copy-right p{
     margin: 0px;
+} 
+/* page */
+.content img{
+    max-width: 100%;
+}
+/* product */
+.product {
+    width: 209.33px;
+    height: auto;
+    float: left;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 5px;
+}
+
+.product-caption del{
+    color: #1A2238;
+}
+.product-caption ins{
+    color: #FF6A3D;
+}
+.product-caption a{
+    color: white;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    background-color: #FF6A3D;
+    text-decoration: none;
+    font-style: italic;
+    font-family: sans-serif;
+}
+.product-caption a:hover{
+    background-color: #9DAAF2;
+}
+/* contact page */
+.banner iframe{
+    pointer-events:none;
+    width: 100%;
 }
