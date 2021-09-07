@@ -212,3 +212,25 @@ address p{
     pointer-events:none;
     width: 100%;
 }
+/* form page */
+.contact-form{
+    max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+    display: block;
+}
+#form-elements{
+    border: medium none !important;
+    margin: 0 0 10px;
+    min-width: 100%;
+    padding: 0;
+    width: 100%;
+}
+#form-elements input[type="text"], #form-elements input[type="email"], #form-elements input[type="tel"], #form-elements input[type="phone"], #form-elements textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
